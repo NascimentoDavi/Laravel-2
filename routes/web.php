@@ -12,4 +12,4 @@ Route::get('/contact', [SiteController::class, 'contact']);
 
 Route::get('/', function () {
     return view('welcome');
-});
+}); 
