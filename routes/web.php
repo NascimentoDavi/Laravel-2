@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Route;
 // Forum development
 Route::get('/supports', [SupportController::class, 'index'])->name('supports.index');
 
-Route::get('/contact', [SiteController::class, 'contact']);
+Route::get('/contact', [SiteController::class, 'contact'])->name('contact.contact');
 
 Route::get('/', function () {
     return view('welcome');
